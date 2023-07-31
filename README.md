@@ -12,3 +12,8 @@ Modo Listar: para poder listar todo cargado y realizar busquedas segun criterio
 
 Modo Crear: para añadir nuevos ingresos a la BD
 
+Datos de Admin
+
+Usuario: maxilizarraga
+Contraseña: coderhouse
+
