@@ -36,6 +36,7 @@ class Migration(migrations.Migration):
                 ('autor', models.CharField(max_length=100)),
                 ('editorial', models.CharField(max_length=100)),
                 ('fecha_publicacion', models.DateField()),
+                ('sinopsis', models.CharField(max_length=650)),
             ],
         ),
     ]

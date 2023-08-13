@@ -6,9 +6,10 @@ class Libro(models.Model):
     autor = models.CharField(max_length=100)
     editorial = models.CharField(max_length=100)
     fecha_publicacion = models.DateField()
+    sinopsis = models.TextField(max_length=650)
     
     def __str__(self):
-        return f"{self.id} - Titulo: {self.titulo} - Autor: {self.autor} - Editorial: {self.editorial} - Fecha Publicacion: {self.fecha_publicacion}"
+        return f"{self.id} - Titulo: {self.titulo} - Autor: {self.autor} - Editorial: {self.editorial} - Fecha Publicacion: {self.fecha_publicacion} - Sinopsis: {self.sinopsis} -"
     
 class Autor(models.Model):
     nombre = models.CharField(max_length=100)
